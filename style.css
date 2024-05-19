@@ -42,6 +42,10 @@ main {
 	height:50%;
 }
 
+.section img{ 
+	margin-bottom:40px;
+}
+
 .intro {
 	flex-direction:column;
 	width:100%;
@@ -59,15 +63,18 @@ main {
 	align-items:center;
 	justify-content:center;
 	display:flex;
+	flex-wrap:wrap;
 	flex-direction:row;
-	font-size:32px;
+	font-size:60px;
+	line-height: 0.3rem;
+	letter-spacing:-0.4px;
 	gap:5px;
 }
 
 .invert{
 	background-color:white;
 	color:grey;
-	padding:8px;
+	padding:40px;
 	border-radius:5px;
 }
 
